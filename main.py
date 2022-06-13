@@ -8,7 +8,7 @@ def main():
         return
     else:
         pyautogui.hotkey("winleft", "1")
-        pyautogui.hotkey("ctrl", "shiftleft", "n")
+        pyautogui.hotkey("ctrl", "t")
         pyautogui.hotkey("ctrl", "l")
         pyautogui.typewrite("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
         pyautogui.press("enter")
