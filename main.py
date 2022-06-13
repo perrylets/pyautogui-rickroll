@@ -11,7 +11,7 @@ def main():
         pyautogui.hotkey("ctrl", "t")
         pyautogui.typewrite("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
         pyautogui.press("enter")
-        time.sleep(2.25)
+        time.sleep(2.5)
         pyautogui.press("f")
 
 
