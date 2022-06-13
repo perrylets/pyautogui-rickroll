@@ -9,7 +9,6 @@ def main():
     else:
         pyautogui.hotkey("winleft", "1")
         pyautogui.hotkey("ctrl", "t")
-        pyautogui.hotkey("ctrl", "l")
         pyautogui.typewrite("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
         pyautogui.press("enter")
         time.sleep(2.5)
