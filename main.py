@@ -1,5 +1,6 @@
 import time
 import pyautogui
+import webbrowser
 
 
 def main():
@@ -7,10 +8,7 @@ def main():
     if res == "nggyu":
         return
     else:
-        pyautogui.hotkey("winleft", "1")
-        pyautogui.hotkey("ctrl", "t")
-        pyautogui.typewrite("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
-        pyautogui.press("enter")
+        webbrowser.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
         time.sleep(2.5)
         pyautogui.press("f")
 
